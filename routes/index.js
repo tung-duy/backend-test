@@ -11,7 +11,8 @@ router.get('/', function (req, res, next) {
 
 router.get('/ping', function (req, res, next) {
   res.json({ 
-    message: 'Server is running on router ping...'
+    message: 'Server is running on router ping...',
+    user: "Tungdd5 dang binh luan o day"
   });
 });
 
